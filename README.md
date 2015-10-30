@@ -1,21 +1,16 @@
 # PHP Dockerized
 
-> Dockerized PHP development stack: Nginx, MySQL, MongoDB, PHP-FPM, HHVM, Memcached, Redis, and Elasticsearch
+> Dockerized PHP development stack: Nginx, MySQL & PHP-FPM
 
-[![Build Status](https://travis-ci.org/kasperisager/php-dockerized.svg)](https://travis-ci.org/kasperisager/php-dockerized)
+[![Build Status](https://travis-ci.org/voycey/php-dockerized.svg)](https://travis-ci.org/voycey/php-dockerized)
 
-PHP Dockerized gives you everything you need for developing PHP applications locally. The idea came from the need of having an OS-agnostic and virtualized alternative to the great [MNPP](https://github.com/jyr/MNPP) stack as regular LAMP stacks quite simply can't keep up with the Nginx + PHP-FPM/HHVM combo in terms of performance. I hope you'll find it as useful an addition to your dev-arsenal as I've found it!
+This is a slimmed down version of the forked repo, I have a custom one I have built using Phusion Baseimage but as a quick and trusted delivery to a client I need one built from official images.
 
 ## What's inside
 
 * [Nginx](http://nginx.org/)
 * [MySQL](http://www.mysql.com/)
-* [MongoDB](http://www.mongodb.org/)
 * [PHP-FPM](http://php-fpm.org/)
-* [HHVM](http://www.hhvm.com/)
-* [Memcached](http://memcached.org/)
-* [Redis](http://redis.io/)
-* [Elasticsearch](http://www.elasticsearch.org/)
 
 ## Requirements
 
